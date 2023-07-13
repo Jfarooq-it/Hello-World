@@ -1,4 +1,2 @@
-Fully Automated CI/CD Pipeline using Git, Jenkins, Maven, Ansible, Docker and Kubernetes on AWS.
-
-1- Building code with the help of maven, creating an image on ansible server and pushing it to docker hub(docker pull jc02/tomcat_app:latest). 
-2- Pulling an image from dockerhub and deploying to AWS EKS Kubernetes Cluster.
+Tools Used: AWS, Git, Jenkins, Tomcat, Java, Maven, Ansible, Docker, Kubernetes, AWS EKS.
+Developed code using Maven, constructed an image on an Ansible server, and deployed it to Docker Hub. Pulled image from Docker Hub and successfully deployed it to AWS EKS Kubernetes Cluster. Configured Maven, authored Ansible playbooks, created Kubernetes deployment/service YAML files, established Jenkins pipeline, and integrated it with Tomcat, Docker, and Ansible server. Built Docker container and deployed to AWS EKS as part of overall project execution.
